@@ -40,17 +40,17 @@ function App() {
   return (
     <Container className="pt-12">
       <Row>
-        <Col lg={3}>
+        <Col lg={3} xs={12}>
           <ProfileCard
             handleTimeFrame={handleTimeFrame}
             selectedDay={selectedDay}
           />
         </Col>
-        <Col lg={9}>
+        <Col lg={9} xs={12}>
           <Row>
             {reportsData.length > 0
               ? reportsData.map((report, index) => (
-                  <Col lg={4} key={index}>
+                  <Col lg={4} xs={12} key={index} className="mb-6">
                     <Report
                       bgColor={report.title}
                       title={report.title}

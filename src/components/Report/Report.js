@@ -8,7 +8,7 @@ import iconEllipsis from "../../images/icon-ellipsis.svg";
 function Report({ bgColor, icon, title, timeframes, selectedDay }) {
   const { current, previous } = timeframes[selectedDay];
   return (
-    <Card className={`report-card ${bgColor} `}>
+    <Card className={`report-card ${bgColor}  `}>
       <Card.Img src={icon} alt="icon" className="card-icon" />
       <Card.Body className="card-box my-3">
         <Card.Title className="d-flex justify-content-between">

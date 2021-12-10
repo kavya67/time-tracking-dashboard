@@ -1,11 +1,11 @@
 .card {
-  width: 18rem;
+  width: 100%;
   border-radius: 10px;
   background-color: hsl(235, 46%, 20%);
 }
 
 .user-profile {
-  background-color:hsl(246, 80%, 60%);
+  background-color: hsl(246, 80%, 60%);
   border-radius: 10px;
   width: inherit;
   padding: 3.5rem;
@@ -41,7 +41,6 @@
   background-color: transparent;
   border: none;
   outline: none;
-
 }
 
 .btn-day:active,
@@ -56,4 +55,11 @@
 
 .isActive {
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .list-group {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

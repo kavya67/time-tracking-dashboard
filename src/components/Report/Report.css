@@ -1,7 +1,11 @@
 .report-card {
-  width: 18rem;
+  width: 100%;
   height: auto;
   position: relative;
+  transition: all ease-in 0.2s;
+}
+
+.mb-6 {
   margin-bottom: 4.75rem;
 }
 
@@ -36,7 +40,7 @@
   background-color: hsl(235, 46%, 20%);
   width: inherit;
   border-radius: 10px;
-  transform: translate(-1px, 2.75rem);
+  transform: translateY(2.75rem) scale(101%);
   color: #fff;
   padding: 2rem 2rem;
 }
@@ -51,7 +55,7 @@
 }
 
 .report-time-text {
-  margin:0;
+  margin: 0;
   font-size: 3.75rem;
   font-weight: 100;
 }
@@ -61,4 +65,14 @@
   font-weight: 100;
   color: inherit;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-box {
+    padding: 1rem 2rem;
+  }
+
+  .report-card {
+    margin-top: 2rem;
+  }
 }
