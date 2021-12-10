@@ -1,0 +1,59 @@
+.card {
+  width: 18rem;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.user-profile {
+  background-color:hsl(246, 80%, 60%);
+  border-radius: 10px;
+  width: inherit;
+  padding: 3.5rem;
+}
+
+.cardImg {
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.username {
+  color: white;
+}
+
+.username span {
+  font-size: 0.87rem;
+  color: hsl(235, 45%, 61%);
+}
+
+.username h1 {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.day-item {
+  background-color: transparent;
+}
+
+.btn-day {
+  color: hsl(235, 45%, 61%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+}
+
+.btn-day:active,
+.btn-day:focus,
+.btn-day:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+  outline-style: none;
+  border: none;
+}
+
+.isActive {
+  color: #fff;
+}

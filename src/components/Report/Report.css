@@ -1,0 +1,64 @@
+.report-card {
+  width: 18rem;
+  height: auto;
+  position: relative;
+  margin-bottom: 4.75rem;
+}
+
+.Work {
+  background-color: hsl(15, 100%, 70%);
+}
+.Play {
+  background-color: hsl(195, 74%, 62%);
+}
+.Study {
+  background-color: hsl(348, 100%, 68%);
+}
+.Exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+.Social {
+  background-color: hsl(264, 64%, 52%);
+}
+.Self {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.card-icon {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card-box {
+  background-color: hsl(235, 46%, 20%);
+  width: inherit;
+  border-radius: 10px;
+  transform: translate(-1px, 2.75rem);
+  color: #fff;
+  padding: 2rem 2rem;
+}
+
+.icon-ellipsis {
+  width: 1.25rem;
+  height: 0.3125rem;
+}
+
+.card-box h4 {
+  font-size: 1.125rem;
+}
+
+.report-time-text {
+  margin:0;
+  font-size: 3.75rem;
+  font-weight: 100;
+}
+
+.report-time-sub-text {
+  font-size: 0.875rem;
+  font-weight: 100;
+  color: inherit;
+  text-transform: capitalize;
+}
